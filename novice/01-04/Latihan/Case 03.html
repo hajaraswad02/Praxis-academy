@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kaksus 03</title>
+</head>
+<body>
+	<script>
+		let catchNum1 = prompt("Masukin nomor pertama!");
+let catchNum2 = prompt("Masukin Nomor Kedua !");
+let catchNum3 = prompt("Masukin nomor Ketiga !");
+let num1 = Number(catchNum1);
+let num2 = Number(catchNum2);
+let num3 = Number(catchNum3);
+
+if (num1 > num2 && num1 > num3 && num2 > num3){
+console.log(num1, num2, num3);
+}
+else if(num1 > num2 && num1 > num3 && num2 < num3){
+console.log(num1, num3, num2);
+}
+else if(num1 < num2 && num1 < num3 && num2 > num3){
+console.log(num2, num3, num1);
+}
+else if(num1 < num2 && num1 > num3 && num2 > num3){
+console.log(num2, num1, num3);
+}
+else if((num1 < num2 && num1 < num3 && num2 < num3)){
+console.log(num3, num2, num1);
+}
+else if((num1 > num2 && num1 < num3 && num2 < num3)){
+console.log(num3, num1, num2);
+}
+	</script>
+</body>
+</html>
