@@ -1,0 +1,35 @@
+tutorial bagaimana cara menginstal VS Code menggunakan Windows 10. Berikut adalah langkah-langkahnya.
+1.	Langkah pertama yang harus disiapkan adalah mendownload Visual Studio Code. Kamu bisa download VS Code di sini. Klik tombol Download, terserah mau versi berapa, sesuaikan dengan kebutuhan kamu. Di sini, saya akan memberikan tutorial menggunakan vs code versi terbaru saat saya mencobanya, yaitu versi 1.42 dengan Stable Build.
+2.	Setelah selesai download, double klik pada installer vs code.
+3.	Pilih “I accept the agreement” kemudian klik Next.
+
+ 
+4. Pilih lokasi dimana kamu akan menginstalnya. Jika ingin melakukan perubahan, pilih Browse, lalu pilih lokasi sesuai keinginan kamu. Jika tidak ingin mengubah lokasinya, langsung klik Next.
+
+ 
+5. Klik Next jika tidak ingin mengubah nama tampilan di Start Menu.
+
+ 
+6. Di bagian Select Additional Tasks centang semua atau sesuaikan dengan kebutuhan kamu. Lalu klik Next.
+
+ 
+7. Kemudian klik Install untuk memulai proses instalasi.
+
+ 
+8. Tunggu proses instalasi selesai.
+
+ 
+9. Setelah selesai proses instalasi, klik Finish.
+
+ 
+10. Gambar di bawah merupakan tampilan awal VS Code.
+ 
+11. Karena mata kuliahnya tentang web server, mari kita download salah satu plugin yang mendukung yaitu PHP. Buka Extensions, tulis php lalu download PHP IntelliSense.
+
+
+12. Jika sudah, atur path nya. Buka Setting, pilih Extensions setting. edit file setting.json. Tambahkan script berikut.
+{
+“php.validate.executablePath”: “S:\\xampp\\php\\php.exe”
+}
+“S:\\xampp\\php\\php.exe” adalah direktori dari file php.exe.
+
