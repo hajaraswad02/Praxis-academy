@@ -1,11 +1,12 @@
 penamaan function dibuat sendiri, 
 fungsi dari dari fungsi dapat diketahui dari tugas yang dimasukkin, 
 
-du jenis fung jaava script 
-function decalration
-fucction expression
+Ada dua jenis fungsi di java script 
+1. function decalration
+2. fucction expression
  
 "example syntak code"
+
 (function name (){
 	console.log('halo nama saya jepri')
 })();
