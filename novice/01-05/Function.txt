@@ -1,0 +1,13 @@
+penamaan function dibuat sendiri, 
+fungsi dari dari fungsi dapat diketahui dari tugas yang dimasukkin, 
+
+du jenis fung jaava script 
+function decalration
+fucction expression
+ 
+"example syntak code"
+(function name (){
+	console.log('halo nama saya jepri')
+})();
+halo nama saya jepri
+
