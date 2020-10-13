@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular Expression</title>
+</head>
+<body>
+	<script>
+		 var foo = /ab+c/;
+
+		 console.log (foo);
+		 console.log(typeof foo);
+
+		 var bar = new RegExp("ab+c");
+
+		 console.log(bar);
+		 console.log(typeof bar);
+
+
+		 var foo = "Belajar Javascript";
+		 var pola = /Javascript/;
+
+		 console.log(pola.test(foo));
+		 console.log(/Belajar/.test(foo));
+		 console.log(/Belajar/.test(foo));
+	</script>
+
+</body>
+</html>

@@ -1,1 +1,9 @@
-Regex
+Regex mereupakan kepanjangan dari regular expresi.
+Regex merupakan sebuah teks (string) yang mendefinisikan sebuah pola pencarian sehingga 
+dapat membantu kita untuk melakukan matching (pencocokan),
+locate (pencarian), dan manipulasi teks.
+
+Konsep tentang regex pertamakali muncul di tahun 1951, 
+ketika seorang ilmuan matematikan bernama Stephen Cole Kleene 
+memformulasikan definisi tentang bahasa formal.
+
