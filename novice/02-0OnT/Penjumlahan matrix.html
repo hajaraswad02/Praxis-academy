@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Case 01</title>
+</head>
+
+<body>
+    <div id='mainDiv' />
+</body>
+
+</html>
+
+<script type='text/javascript'>
+
+    var loadJSFile = function (filename) {
+
+        var fileref = document.createElement('script')
+        fileref.setAttribute("type", "text/javascript")
+        fileref.setAttribute("src", filename)
+
+        document.getElementsByTagName("head")[0].appendChild(fileref)
+    }
+
+    loadJSFile('Case01.js');
+
+</script>

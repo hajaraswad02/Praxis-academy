@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Human As cat </title>
+</head>
+<h1>Human as cat  </h1>
+<body>
+	<script>
+		class Manusia {
+			constructor(kelelahan, lapar, kesepian, senang){
+				this.kelelahan = kelelahan;
+				this.lapar = lapar;
+				this.kesepian = kesepian;
+				this.senang = senang;
+
+
+			}
+			kuda(value){
+				this.kelelahan -= value;
+				this.lapar += value;
+				return `Saya sangat kelelahan`;
+			} 
+
+			gorila(value){
+				this.lapar -= value;
+				return `saya rasa saya lapar`;
+			}
+
+			ayam(value){
+				this.senang -= value;
+				return `saya merasa sangat senang`;
+			} 			
+		}
+
+		let Human = new Manusia (10, 15, 20, 25);
+		alert(Human.gorila(20, 25));
+	</script>
+
+</body>
+</html>

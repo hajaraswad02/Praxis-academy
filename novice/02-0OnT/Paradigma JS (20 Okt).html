@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paradigma Java script</title>
+</head>
+<body>
+	<p>Paradgima java script Selasa 20 Oktober 2020</p>
+	<script>
+		// Batas function objek JS
+		// function Animal (Anjing, Babi, Monyet, Kunyuk){
+		// 	this. Anjing = Anjing,
+		// 	this. Babi = Babi,
+		// 	this. Monyet = Monyet, 
+		// 	this. Kunyuk = Kunyuk, 
+		// 	this.getName = function (){
+		// 		return this .Anjing + "" + this.Kunyuk;
+		// 	}  
+
+		// }
+
+		// let Suara = new Animal ("Guk", "Nguk-nguk", "Aw-aw-aw", "hai");
+		// let Makanan = new Animal ("Tulang", "sampah", "pisang", "Pisang");
+
+		// console.log(Makanan); 
+
+		// Batas Akhir fungsi objek JS
+
+
+		class Human {
+			constructor(Suara, Makanan, Gender){
+				this. Suara = Suara;
+				this. Makanan = Makanan;
+				this. Gender = Gender;
+			}
+
+			getName(){
+				return this.Suara + " " + this.Makanan + "" + this.Gender; 
+			}
+		}
+
+		let Manusia = new Human ("Multi bahasa", "Nasi", 12);
+		console.log(Manusia.getName());
+	</script>
+
+</body>
+</html>
