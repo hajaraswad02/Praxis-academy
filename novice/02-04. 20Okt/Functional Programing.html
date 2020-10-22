@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functional Programing</title>
+</head>
+	<h1>Function Programing</h1>
+<body>
+	<script>
+		function ucapan(selamat){
+			return function(Nama){
+				return function(Agama){
+					return selamat + " " + Nama + " " + "Dari Fakultas/ Prodi" + " " + Agama
+				}
+			} 
+		}
+
+		let pagi = ucapan ("selamat pagi");
+		let siang = ucapan ("selamat siang");
+		let sore = ucapan ("Selamat sore");
+
+		let Zaskya_sungkar = pagi ("Zaskya sungkar") ("FEBI");
+		let Brio = siang ("Brio") ("Electrical Enginering");
+
+		alert(Zaskya_sungkar);
+
+
+	</script>
+
+</body>
+</html>

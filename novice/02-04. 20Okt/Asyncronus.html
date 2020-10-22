@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Asyncronus JS</title>
+</head>
+<body>
+	<script>
+		async function fetchWithAsyncAwait (id){
+			try {
+				let response = await fetch(endpoint + id)
+				response = await response.json()
+				console.log(response)
+			}catch(eror){
+				console.log('opps' + eror)
+			}
+		}
+
+			var human = {'name' : 'sastra', 'city' : 'sukabumi'}
+			var newHuman = human
+			newHuman.name='panca'
+
+			console.log(human);
+
+			const btn = document.querySelector('buton');
+			btn.addEventListener('click', ()=>{
+				alert('You Mencet me!');
+
+				let pElem = document.creatElement('p');
+				pElem.textContent = 'Pragraf baru, baru saja ditambahkan.';
+				document.body.appendChild(pElem);
+			})
+
+	</script>
+
+</body>
+</html>
